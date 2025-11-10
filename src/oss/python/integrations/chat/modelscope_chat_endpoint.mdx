@@ -46,7 +46,7 @@ pip install -qU langchain-modelscope-integration
 Now we can instantiate our model object and generate chat completions:
 
 ```python
-from langchain_modelscope import ModelScopeChatEndpoint
+from langchain_modelscope.chat_models import ModelScopeChatEndpoint
 
 llm = ModelScopeChatEndpoint(
     model="Qwen/Qwen2.5-Coder-32B-Instruct",
